@@ -1,5 +1,6 @@
 body {
 background-color: black;
+font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -46,6 +47,7 @@ font-weight: 600;
 font-size: 14px;
 font-family: "DM Sans", sans-serif;
 }
+
 
 .library a {
 text-decoration: none;
