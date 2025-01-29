@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+
+.sidebar__navigation {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.sidebar__navigation .logo {
+    background: gray;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.sidebar__navigation .logo img {
+    width: 80px;
+}
+
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 10px 20px 10px;
+}
+
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+
+.sidebar nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.library {
+    background-color: gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    margin-right: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
