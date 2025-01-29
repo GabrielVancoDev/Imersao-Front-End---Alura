@@ -1,0 +1,187 @@
+body {
+    background-color: black;
+    font-family: var(--font-dm-sans)
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+
+.sidebar__navigation {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.sidebar__navigation .logo {
+    background: gray;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.sidebar__navigation .logo img {
+    width: 80px;
+}
+
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 10px 20px 10px;
+}
+
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+
+.sidebar nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.library {
+    background-color: gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    margin-right: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+}
+
+
+.section-playlist {
+    background-color: gainsboro;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: black;
+}
+
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.section-playlist__content .section-playlist__button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+
+.sidebar .cookies a {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+
+.languages .languages__button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: aliceblue;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
