@@ -7,23 +7,24 @@
     margin-right: 56px;
 }
 
-.hearder__navigation {
+.header__navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: black;
+    background-color: gray;
+    padding: 12px;
 }
 
-.hearder__navigation .navigation {
+.header__navigation .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.hearder__navigation .navigation .arrow-left {
+.header__navigation .navigation .arrow-left {
     margin-right: 1.25rem;
 }
 
@@ -39,3 +40,112 @@
     border: none;
     cursor: pointer;
 }
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+/* Playlist */
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Scroll */
+.offer__scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+.offer__scroll-container ::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll-container ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+/* Fim Scroll */
+
+.offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+
+    /* Codigo com js calculando os cards por coluna */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+}
+
+.cards
+
