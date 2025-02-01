@@ -13,10 +13,12 @@ width: 300px;
 
 }
 
+
 .sidebar__navigation{
-background-color: #121212;
+    background-color: #1212129f;
 border-radius: 8px;
 padding: 16px 0 0 16px;
+
 }
 .logo {
 background-color: #121212;
@@ -130,6 +132,7 @@ color: #b3b3b3;
 
 .section-playlist__content .title{
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .section-playlist__content .subtitle{
@@ -176,7 +179,7 @@ color: #b3b3b3;
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     margin: 8px;
@@ -188,7 +191,7 @@ color: #b3b3b3;
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #101926, #2bdefd);
+    background: linear-gradient(to right, #101926, #2bddfd6e);
     padding: 15px 10px;
     display: flex;
     justify-content: space-between;
@@ -199,7 +202,7 @@ color: #b3b3b3;
 }
 
 .disclaimer-premium .disclaimer-premium__title {
-color: #fff;
+color: #ffffff7e;
 text-transform: uppercase;
 font-weight: 400;
  font-size: 12px;
@@ -207,13 +210,13 @@ font-weight: 400;
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle{
-    color: #fff;
+    color: #ffffff6a;
     font-weight: 400;
     font-size: 12px;
 }
 
 .disclaimer-premium button {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000;
     font-size: 16px;
     font-weight: bold;
