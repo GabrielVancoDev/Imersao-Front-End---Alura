@@ -13,7 +13,7 @@ width: 300px;
 
 }
 
-sidebar__navigation{
+.sidebar__navigation{
 background-color: #121212;
 border-radius: 8px;
 padding: 16px 0 0 16px;
@@ -181,4 +181,45 @@ color: #b3b3b3;
     cursor: pointer;
     margin: 8px;
     border-radius: 20px; 
+}
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bdefd);
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+color: #fff;
+text-transform: uppercase;
+font-weight: 400;
+ font-size: 12px;
+ margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }

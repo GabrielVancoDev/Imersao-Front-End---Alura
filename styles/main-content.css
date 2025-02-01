@@ -95,3 +95,258 @@
    font-weight: 700;
    border-radius: 40px;
 }
+
+.playlist-container{
+    height: 80vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+.playlist{
+    margin: 24px;
+
+}
+
+.playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitle{
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+}
+
+.offer__scroll-container {
+   max-height: 60vh;
+   margin: 24px;
+   overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+.offer__list{
+}
+
+.offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    /*Código Js*/
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+}
+
+.cards{
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.card1 {
+    background-color: rgb(0,100,80);
+}
+
+.card2 {
+    background-color: rgb(0,100,80);
+}
+
+.card3 {
+    background-color: rgb(0,100,80);
+}
+
+.card4 {
+    background-color: rgb(0,100,80);
+}
+
+.card5 {
+    background-color: rgb(0,100,80);
+}
+
+.card6 {
+    background-color: rgb(0,100,80);
+}
+
+.card7 {
+    background-color: rgb(0,100,80);
+}
+
+.card8 {
+    background-color: rgb(0,100,80);
+}
+
+.card9 {
+    background-color: rgb(0,100,80);
+}
+
+.card10 {
+    background-color: rgb(0,100,80);
+}
+
+.card11 {
+    background-color: rgb(0,100,80);
+}
+
+.card12 {
+    background-color: rgb(0,100,80);
+}
+
+.card13 {
+    background-color: rgb(0,100,80);
+}
+
+
+.card14 {
+    background-color: rgb(0,100,80);
+}
+
+.card15 {
+    background-color: rgb(0,100,80);
+}
+
+.offer__list-item img{
+    position: absolute;
+    right: 1px;
+    left: 1px;
+    bottom: 0;
+    top: 2px;
+    height: auto;
+    width: 219px;
+}
+
+.artist {
+    --column-count: 5;
+    --grid-gap:24px;
+    --min-container-width: 372px;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid-container {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    max-width: 767px;
+}
+
+.artist-card {
+    background: #181818;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.artist-card:hover{
+    background-color: #252525;
+}
+
+.card-img{
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+
+.card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+
+.artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+  }
+  
+  .artist-categorie {
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  
+  .play {
+    position: relative;
+  }
+  
+  .play .fa-play {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  
+  .artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  .play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #result-artist {
+    padding: 20px 40px;
+  }
+  /* FIM CARD ARTISTA */
